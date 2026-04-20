@@ -9,16 +9,18 @@ scikit-learn>=1.2.0
 scipy>=1.10.0
 
 # API framework
-fastapi>=0.95.0
-uvicorn>=0.20.0
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+starlette>=0.27.0
+websockets>=10.0
 
 # Database
 sqlalchemy>=2.0.0
-# sqlite3  # Built into Python
+redis>=4.5.0
 
 # Utilities
 python-dotenv>=1.0.0
-pydantic>=1.10.0
+pydantic>=2.0.0
 
 # Development
 jupyter>=1.0.0
