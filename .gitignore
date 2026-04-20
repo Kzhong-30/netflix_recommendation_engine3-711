@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.sqlite3
+*.log
+
+# Virtual env
+venv/
+.env
+
+# Data and models
+data/
+models/
+
+# Docker
+*.dockerignore
+Dockerfile
+
+# OS files
+.DS_Store
+Thumbs.db
